@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #212527;
+  color: #9fb2b9;
+}
+
+.container {
+  display: grid;
+  width: 85%;
+  margin: 2em auto 0;
+}
+.card {
+  background: #323232;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+p,
+h3 {
+  margin: 0;
+}
+h3 {
+  margin-bottom: 0.35em;
+  font-size: 1.85em;
+  letter-spacing: 0.03em;
+  color: #d0e1e8;
+}
+p.date {
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #6e7a7e;
+}
+p.desc {
+  font-size: 1.05em;
+}
+span {
+  width: 5em;
+  height: 5em;
+  background: #64a5b3;
+  border-radius: 50%;
+  margin: 1.2em;
+}

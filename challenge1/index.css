@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(174, 219, 233);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 25%;
+  background-color: aliceblue;
+}
+
+.date {
+  margin: 0.45rem 0.5rem 0.45rem 0.5rem;
+}
+
+.title {
+  margin: 0.45rem 0.5rem 0.65rem 0.5rem;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.description {
+  margin: 0.45rem 0.5rem 0.45rem 0.5rem;
+}
+
+span {
+  height: 100px;
+  display: block;
+  width: 100%;
+  background: #4f7e8e;
+}
